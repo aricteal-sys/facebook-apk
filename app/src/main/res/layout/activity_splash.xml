@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="f"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#1877F2"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/splashTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook is updating…"
+        android:textSize="20sp"
+        android:textColor="#1C1E21"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/splashSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please wait while we improve your experience."
+        android:textSize="14sp"
+        android:textColor="#65676B"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <ProgressBar
+        android:id="@+id/splashProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="0"
+        android:max="100"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/splashPercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="14sp"
+        android:textColor="#1877F2"
+        android:gravity="center"/>
+
+</LinearLayout>
